@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 1.0);
+}
+section .one,.two{
+	width: 350px;
+	height: 275px;
+	border: 1px solid;
+}
+section .one{
+	background-color: #E42C20;
+	border-radius: 23px 23px 0 0;
+}
+section .two{
+	background-color: #F4F4F4;
+	border-radius: 0 0 23px 23px ;
+}
+.one .uno{
+	height: 42px;
+	width: 136px;
+	padding: 10px 8px;
+}
+.one .div2 .ios{
+	width: 273px;
+	/*position: absolute;
+	top: 80px;
+	right: 400px;*/
+	position: relative;
+	left: 190px;
+	bottom: 350px;
+	transition: 0.5s ease-in-out;
+}
+.one .div2 .neo{
+	width: 180px;
+	position: relative;
+	left: 210px;
+	bottom: 90px;
+	overflow: hidden;
+}
+.one .div2 .ios:hover{
+	position: relative;
+	/*width: 273px;*/
+	left: 260px;
+	bottom: 370px;
+
+}
+.one .start1{
+	font-family: 'cantata One', sans-serif;
+	font-weight: 400;
+	font-size: 60px;
+	color: white;
+	padding-top: 85px;
+	width: 200px;
+	padding-left: 10px;
+	text-align: center;
+	line-height: 60px;
+}
+
+.one .start1 span {
+	font-size: 55px;
+	font-family: 'poppins', sans-serif;
+}
+.two{
+	padding-left: 15px;
+	width: 335px;
+}
+.two .lol{
+	display: flex;
+	padding-top: 10px;
+	/*padding-left: 15px;*/
+	/*width: 335px;*/
+}
+.two h5{
+	border-radius: 15px 15px 15px 15px ;
+	background-color: #6BC833;
+	width: 40px;
+	text-align: center;
+	padding: 4px;
+	margin-left: 9px;
+	height: 16px;
+}
+.two .op h4{
+	padding-top: 3px;
+	font-weight: 300;
+}
+.two .op img{
+	width: 130px;
+}
+.two .om{
+	padding-top: 10px;
+}
+.two .om h3{
+	font-family: 'poppins','sans-serif';
+}
+.two .om img{
+	width: 180px;
+}
+.two .om img:hover{
+	color: darkturquoise;
+}
+.two .namah{
+	padding-top: 10px;
+}
+.two .namah h3{
+	font-family: 'poppins','sans-serif'
+}
+.two .namah img{
+	width:30px;
+}
+.two .shivaye h1{
+	width: 170px;
+	text-align: center;
+	position: relative;
+	left: 225px;
+	color: white;
+	background-color: #3BEF0E;
+	font-size: 33px;
+	border-radius: 5px;
+	bottom: 45px;
+	transition: 0.5s ease-in-out;
+}
+.two .shivaye h1:hover{
+    width: 240px;
+	text-align: center;
+	position: relative;
+	left: 200px;
+	color: white;
+	background-color: #3BEF0E;
+	font-size: 50px;
+	border-radius: 5px;
+	bottom: 60px;
+}
